@@ -1,3 +1,5 @@
+package StringFirstAssignments;
+
 import java.io.*;
 import edu.duke.*; // Required for URLResource
 
@@ -20,8 +22,9 @@ import edu.duke.*; // Required for URLResource
 public class Part4 {
     public void getLinks(){
         int count = 0;
-        URLResource ur = new URLResource("http://www.dukelearntoprogram.com/course2/data/manylinks.html");
+        URLResource ur = new URLResource("https://www.dukelearntoprogram.com//course2/data/manylinks.html");
         for (String s : ur.words()){
+            //System.out.println(s);
             String simpleWord =s.toLowerCase();
             int pos = simpleWord.indexOf("youtube.com");
             if (pos == -1)
@@ -31,8 +34,7 @@ public class Part4 {
             int endQuote = s.indexOf("\"", pos+11);
             System.out.println(s.substring(startQuote+1, endQuote));
         }
-        if (count == 0)
-            System.out.println("No YouTube Link Found");
+        System.out.println("No of YouTube Links Found: " + count);
     }
     public static void main(String args[]){
         Part4 p = new Part4();

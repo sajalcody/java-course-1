@@ -1,3 +1,5 @@
+package StringFirstAssignments;
+
 import java.io.*;
 
 /**
