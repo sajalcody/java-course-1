@@ -1,11 +1,16 @@
 # java-course-1
-[Java Programming: Solving Problems with Software](https://www.coursera.org/learn/java-programming/home/welcome)
 
-[Project Resources](https://www.dukelearntoprogram.com/course2/)
+## [Java Programming: Solving Problems with Software](https://www.coursera.org/learn/java-programming/home/welcome)
 
-## Week 1: Java Fundamentals
-## Week 2: Strings in Java
-## Week 3: CSV Files and Basic Statistics in Java
+### Course 1 of [Object Oriented Programming in Java Specialization](https://www.coursera.org/specializations/object-oriented-programming)
 
-## Java Strings
-- [Oracle Documentation](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+
+## Week 1: [Java Fundamentals](https://github.com/sajalcody/java-course-1/tree/master/Week1#week-1-java-fundamentals)
+## Week 2: [Strings in Java](https://github.com/sajalcody/java-course-1/tree/master/Week2#week-2)
+## Week 3: [CSV Files and Basic Statistics in Java](https://github.com/sajalcody/java-course-1/tree/master/Week3#week-3-csv-files-and-basic-statistics-in-java)
+## Week 4: [MiniProject: Baby Names](https://github.com/sajalcody/java-course-1/tree/master/Week4#week-4-miniproject-baby-names)
+
+#### Resources
+
+- [Project Resources](https://www.dukelearntoprogram.com/course2/)
+- Java Strings: [Oracle Documentation](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
