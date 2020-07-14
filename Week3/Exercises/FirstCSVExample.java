@@ -1,4 +1,4 @@
-package firstCSV;
+ 
 
 /**
  * Reads a chosen CSV file of our preferences and prints each field.
