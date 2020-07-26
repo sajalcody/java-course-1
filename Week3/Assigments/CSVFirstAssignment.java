@@ -50,6 +50,13 @@ public class CSVFirstAssignment {
             }
         }
     
+    public void testListExportersTwoProducts(){
+        FileResource fr = new FileResource();
+        CSVParser parser = fr.getCSVParser();
+        System.out.println("Countries that export cotton and flowers: ");
+        listExportersTwoProducts(parser, "cotton", "flowers");
+    }
+    
     public int numberOfExporters(CSVParser parser, String exportItem){
         int count = 0;
         for (CSVRecord record : parser){
@@ -61,12 +68,25 @@ public class CSVFirstAssignment {
         return count;
     }
     
+    public void testNumberOfExporters(){
+        FileResource fr = new FileResource();
+        CSVParser parser = fr.getCSVParser();
+        System.out.println("No of Countries that export coco: " + numberOfExporters(parser, "cocoa"));
+    }
+    
     public void bigExporters(CSVParser parser, String amount){
         for (CSVRecord record : parser){
             String recAmount = record.get("Value (dollars)");
             if (recAmount.length() > amount.length())
                 System.out.println(record.get("Country") + " " + recAmount);
         }
+    }
+    
+    public void testBigExporters(){
+        FileResource fr = new FileResource();
+        CSVParser parser = fr.getCSVParser();
+        System.out.println("Countries that export > : ");
+        bigExporters(parser, "$999,999,999,999");
     }
     
     public void tester(){
